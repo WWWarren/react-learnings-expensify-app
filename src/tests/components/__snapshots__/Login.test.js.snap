@@ -1,24 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render Login correctly 1`] = `
-<header>
-  <h1>
-    Expensify
-  </h1>
-  <NavLink
-    activeClassName="isActive"
-    ariaCurrent="true"
-    exact={true}
-    to="/"
+<div>
+  <button
+    onClick={[Function]}
   >
-    Home
-  </NavLink>
-  <NavLink
-    activeClassName="isActive"
-    ariaCurrent="true"
-    to="/create"
-  >
-    Add
-  </NavLink>
-</header>
+    Login
+  </button>
+</div>
 `;

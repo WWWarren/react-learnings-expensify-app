@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { startLogin } from '../actions/auth.js';
 
-class Login extends React.Component {
+export class Login extends React.Component {
   render() {
     const { startLogin } = this.props;
     return (
