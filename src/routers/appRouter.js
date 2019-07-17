@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Switch, NavLink } from 'react-router-dom';
-import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory } from 'history';
 
 import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
 import AddExpensePage from '../components/AddExpensePage';
@@ -11,7 +11,7 @@ import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 import Login from '../components/Login';
 
-export const history = createHistory();
+export const history = createBrowserHistory();
 
 const AppRouter = () => (
   <Router history={history}>
