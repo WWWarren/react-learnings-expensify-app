@@ -1,0 +1,17 @@
+.header {
+  background: $moodyBlue;
+}
+
+.header__title {
+  color: #fff;
+  text-decoration: none;
+  h1 {
+    margin: 0;
+  }
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
